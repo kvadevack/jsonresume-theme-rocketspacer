@@ -285,6 +285,12 @@ h4 span:first-child {
 		font-size: 12px;
   }
 
+  .row {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
 	.col-sm-push-3 {
     left: 25%;
   }
